@@ -27,16 +27,20 @@
 
 development:
   adapter: postgresql
-  usarname: desafio
-  password: desafio 
+  usarname: claudio
+  password: desafio
+  port: 5432
+  host: localhost
   database: my_database_development
   pool: 5
   timeout: 5000
 
 test:
   adapter: postgresql
-  usarname: desafio
+  usarname: claudio
   password: desafio
+  port: 5432
+  host: localhost  
   database: my_database_test
   pool: 5
   timeout: 5000
